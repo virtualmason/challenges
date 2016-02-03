@@ -7,7 +7,7 @@ function myReplace(str, before, after) {
         if(before.charCodeAt(0) < 95 && after.charCodeAt(0) >95)
         {after.toLowerCase();}
         if(before.charCodeAt(0) <95 && after.charCodeAt(0) >95) {after.toUppperCase();}
-        //check case l l
+        
     }//end if
       
   str = newStr.join(" ").replace(before, after);//dev tools
