@@ -1,4 +1,4 @@
-function myReplace(str, before, after) {
+function myReplace(str, before, after) {//dd
 
  var newStr = str.split(" ");//split stpring
    console.log(newStr);
